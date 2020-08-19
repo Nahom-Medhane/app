@@ -19,14 +19,14 @@ class Counters extends Component{
     
  
    	handleRecycle = () => {
-		const Counters = this.state.map(c => {
-			c.value = 0;
-			return c;
+		//const Counters = this.state.map(c => {
+			//c.value = 0;
+			//return c;})
+		//this.setState({
+			//Counters 
+		//});
+			window.location.realod(true)
 
-		})
-		this.setState({
-			Counters 
-		});
 		
 	}
     
