@@ -25,7 +25,7 @@ class Counters extends Component{
 		//this.setState({
 			//Counters 
 		//});
-			window.location.realod(true)
+			window.location.reload();
 
 		
 	}
@@ -45,7 +45,7 @@ class Counters extends Component{
 	<h3> Counters : Happy Counting To You!!!!</h3>
 </div>
 <button className="btn btn bg-primary color-white btn-sm m-2" 
-onClick={this.handleReset}>Reset</button><br/>
+onClick={this.handleRecycle}>Reset</button><br/>
 
 			{ this.state.Counters.map(
 				counter => <Counter key={counter.id} 
